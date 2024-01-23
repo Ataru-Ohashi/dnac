@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<svg height="20" style="shape-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" width="140" xmlns="http://www.w3.org/2000/svg">
+	<linearGradient id="b" x2="0" y2="100%">
+		<stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+		<stop offset="1" stop-opacity=".1"/>
+	</linearGradient>
+	<mask id="a">
+		<rect fill="#fff" height="20" rx="3" width="140"/>
+	</mask>
+	<g mask="url(#a)">
+		<path d="M0 0h40v20H0z" fill="#555"/>
+		<path d="M40 0h100v20H40z" fill="#6EBE4A"/>
+		<path d="M0 0h140v20H0z" fill="url(#b)"/>
+	</g>
+	<g fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+		<text fill="#010101" fill-opacity=".3" text-anchor="middle" x="20.0" y="15">AIDE</text>
+		<text text-anchor="middle" x="20.0" y="14">AIDE</text>
+	</g>
+	<g fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+		<text fill="#010101" fill-opacity=".3" text-anchor="middle" x="90.0" y="15">essentials</text>
+		<text text-anchor="middle" x="90.0" y="14">essentials</text>
+	</g>
+</svg>

@@ -1,0 +1,15 @@
+{
+    "hostname": "192.168.203.30",
+    "username": "admin",
+    "password": "cisco123!",
+    "zip_pass": "admin:Cisco123!",
+    "api": {
+        "authenticationAPI": ["POST", "/dna/system/api/v1/auth/token"],
+        "getDeviceList": ["GET", "/dna/intent/api/v1/network-device"],
+        "exportDeviceConfigurations": ["POST", "/dna/intent/api/v1/network-device-archive/cleartext"],
+        "getTaskById": ["GET", "/dna/intent/api/v1/task/{taskId}"],
+        "downloadAFileByFileId": ["GET", "/dna/intent/api/v1/file/{fileId}"],
+        "getClientDetail": ["GET", "/dna/intent/api/v1/client-detail"],
+        "getClientEnrichmentDetails": ["GET", "/dna/intent/api/v1/client-enrichment-details"]
+    }
+}

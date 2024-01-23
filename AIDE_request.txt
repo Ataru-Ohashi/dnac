@@ -1,0 +1,23 @@
+Name:
+DNAC Config Export Tool
+
+
+Description:
+This tool accesses a running DNAC server and collects Configs for devices managed by DNAC.
+To access the server, use the REST API that comes standard with DNAC.
+Download the collected Config as an encrypted ZIP file and store it in the same directory as the py file.
+
+
+Expected Utilizations per year:
+12
+
+
+Expected savings in Value In(USD):
+100
+
+
+Request:
+https://cxtools.cisco.com/cxestore/#/requestDetail/2315334/taskID/2315408/mode/store
+
+Tool URL:
+https://cxtools.cisco.com/cxestore/#/toolDetail/81262

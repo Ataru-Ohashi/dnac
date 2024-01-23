@@ -1,0 +1,12 @@
+{
+    "METI": {
+    "hostname": "192.168.203.30",
+    "username": "admin",
+    "password": "cisco123!",
+    },
+    "TMT Lab": {
+    "hostname": "10.71.241.232",
+    "username": "admin",
+    "password": "Cisco123",
+    }
+}
